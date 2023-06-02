@@ -45,7 +45,7 @@ function torlesGomb() {
     TR[index].appendChild(TD);
     TD.appendChild(TORLES);
     TORLES.addEventListener("click", function () {
-      torlesFunkcio(index );
+      torlesFunkcio(index -1 );
     });
   }
 }
