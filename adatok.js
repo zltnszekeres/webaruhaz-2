@@ -1,48 +1,47 @@
-export const AUTOKLISTA = [
 
 
-    {
-        modell: "Mini Cooper Green ",
-        kep: "kepek/1.jpg",
-        méretarány: "1:24",
-        ár: "12000 ft"
+
+   
+
+export const TERMEKLISTA = [
+    {   nev : "Csepel woodlands pro",
+        leiras: "versenyzesre optimalizalt",
+        ar: "226000"
     },
-    {
-        modell: "Citroen CV2",
-        kep: "kepek/2.jpg",
-        méretarány: "1:24",
-        ár: "14000 ft"
+    
+     {  nev : "GT Agressor",
+        leiras: "azoknak, akik a leglobb teljesitmenyt es legsokoldalubb felhasznalast keeresik",
+        ar: "255000"
     },
-    {
-        modell: "Jaguár Mark ij",
-        kep: "kepek/3.jpg",
-        méretarány: "1.18",
-        ár: "24000 ft"
+    {   nev : "Kellys gate 70",
+        leiras: "vadonatuj vaz, kenyelmes, de sportos geometriaval",
+        ar: "670000"
     },
-    {
-        modell: "citroen cx 1976",
-        kep: "kepek/4.jpg",
-        méretarány: "1.18",
-        ár: "22000 ft"
+    
+    
+    {   nev : "Btwin rockrider race 700",
+        leiras: "Az elso teljesítmenyorientalt XC MTB alacsony aron",
+        ar: "400000"
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ];
+    
+    export const TERMEKKULCS = [
 
-
-
-
-
-
-
-
-
-]
-export const AUTOKULCS = [
-
-    {
-        modell: "modell",
-       // kep: "kép",
-        méretarány: "méretarány",
-        ár: "ár"
-    }
-
-]
+        {
+            nev: "nev",
+           
+            leiras: "leíras",
+            ar: "ar"
+        }
+    
+    ];
 
